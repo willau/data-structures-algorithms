@@ -49,7 +49,6 @@ class StackLink:
 
     def __init__(self):
         self.start = None
-        self.link = None
 
     def __repr__(self):
         string = "stack: "
@@ -62,15 +61,13 @@ class StackLink:
 
     def put(self, key):
         assert type(key) == int
-        self.link = Link(key, self.start)
-        self.start = self.link
+        self.start = Link(key, self.start)
         return self
 
     def pop(self):
         if self.start is None:
             print("stack is empty")
         else:
-            self.link = self.link.next_link
-            self.start = self.link
+            self.start = self.start.next_link
         return self
 
