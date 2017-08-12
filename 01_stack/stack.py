@@ -13,12 +13,14 @@ class StackArray:
         self.height = 0
 
     def __repr__(self):
-        string = "|"
+        string = "stack: |"
         for i in range(self.height):
             string += " %d |" % self.array[i]
+        for j in range(self.length - self.height):
+            string += "   |"
         return string
 
-    def append(self, key):
+    def put(self, key):
         if self.height < self.length:
             self.array[self.height] = key
             self.height += 1
@@ -35,5 +37,38 @@ class StackArray:
         return self
 
 
-if __name__ == "__main__":
-    print("stack implementation with array")
+class Link:
+
+    def __init__(self, key, next_link):
+        self.key = key
+        self.next_link = next_link
+
+
+class StackLink:
+
+    def __init__(self):
+        self.start = None
+        self.link = None
+
+    def __repr__(self):
+        string = "stack: "
+        curr = self.start
+        while curr is not None:
+            string += "%d --> " %curr.key
+            curr = curr.next_link
+        string += "null"
+        return string
+
+    def put(self, key):
+        self.link = Link(key, self.start)
+        self.start = self.link
+        return self
+
+    def pop(self):
+        if self.start is None:
+            print("stack is empty")
+        else:
+            self.link = self.link.next_link
+            self.start = self.link
+        return self
+
