@@ -44,6 +44,9 @@ class Link:
         self.key = key
         self.next_link = next_link
 
+    def __repr__(self):
+        return "%s --> ..." % self.key
+
 
 class StackLink:
 
