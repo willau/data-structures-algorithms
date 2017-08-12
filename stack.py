@@ -68,9 +68,7 @@ class StackLink:
         return self
 
     def pop(self):
-        if self.start is None:
-            print("stack is empty")
-        else:
+        if self.start is not None:
             self.start = self.start.next_link
         return self
 
