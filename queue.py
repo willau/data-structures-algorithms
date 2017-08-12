@@ -66,6 +66,7 @@ class QueueLink:
         return string
 
     def put(self, key):
+        assert type(key) == int
         link = Link(key, None)
         if self.end == None:
             self.start = link
