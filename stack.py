@@ -8,7 +8,7 @@ class StackArray:
 
     def __init__(self, n=10):
         assert n > 0
-        self.length = n
+        self.n = n
         self.array = list(-1 for _ in range(n))
         self.height = 0
 
@@ -16,13 +16,13 @@ class StackArray:
         string = "stack: |"
         for i in range(self.height):
             string += " %d |" % self.array[i]
-        for j in range(self.length - self.height):
+        for j in range(self.n - self.height):
             string += "   |"
         return string
 
     def push(self, key):
         assert type(key) == int
-        if self.height < self.length:
+        if self.height < self.n:
             self.array[self.height] = key
             self.height += 1
         else:
