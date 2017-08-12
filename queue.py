@@ -46,18 +46,39 @@ class Link():
         self.key = key
         self.next_link = next_link
 
+    def __repr__(self):
+        return "%s --> ..." % self.key
+
 
 class QueueLink:
 
     def __init__(self):
-        return None
+        self.start = None
+        self.end = None
 
     def __repr__(self):
-        return ""
+        string = "queue: "
+        curr = self.start
+        while curr is not None:
+            string += "%d --> " %curr.key
+            curr = curr.next_link
+        string += "null"
+        return string
 
-    def put(self):
-        return None
+    def put(self, key):
+        link = Link(key, None)
+        if self.end == None:
+            self.start = link
+        else:
+            self.end.next_link = link
+        self.end = link
+        return self
 
     def pop(self):
-        return None
+        if self.start is not self.end:
+            self.start = self.start.next_link
+        else:
+            self.start = None
+            self.end = None
+        return self
 
