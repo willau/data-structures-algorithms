@@ -19,7 +19,7 @@ class QueueArray:
             string += " %s |" % e if e!= -1 else "   |"
         return string
 
-    def put(self, key):
+    def enqueue(self, key):
         assert type(key) == int
         sta = self.start
         end = self.end
@@ -31,7 +31,7 @@ class QueueArray:
             self.end += 1
         return self
 
-    def pop(self):
+    def dequeue(self):
         if self.start == self.end:
             print("queue is empty")
         else:
@@ -65,7 +65,7 @@ class QueueLink:
         string += "null"
         return string
 
-    def put(self, key):
+    def enqueue(self, key):
         assert type(key) == int
         link = Link(key, None)
         if self.end == None:
@@ -75,7 +75,7 @@ class QueueLink:
         self.end = link
         return self
 
-    def pop(self):
+    def dequeue(self):
         if self.start is not self.end:
             self.start = self.start.next_link
         else:

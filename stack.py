@@ -20,7 +20,7 @@ class StackArray:
             string += "   |"
         return string
 
-    def put(self, key):
+    def push(self, key):
         assert type(key) == int
         if self.height < self.length:
             self.array[self.height] = key
@@ -62,7 +62,7 @@ class StackLink:
         string += "null"
         return string
 
-    def put(self, key):
+    def push(self, key):
         assert type(key) == int
         self.start = Link(key, self.start)
         return self
