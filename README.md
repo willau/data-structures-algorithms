@@ -1,2 +1,3 @@
-# data_structures_algorithms
+# Data Structures and Algorithms
+
 Improving my understanding of data structures and algorithms
