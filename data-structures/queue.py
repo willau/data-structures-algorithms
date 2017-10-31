@@ -83,3 +83,6 @@ class QueueLink:
             self.end = None
         return self
 
+if __name__ == "__main__":
+    print("Use `python -i queue.py`")
+

@@ -72,3 +72,5 @@ class StackLink:
             self.start = self.start.next_link
         return self
 
+if __name__ == "__main__":
+    print("Use `python -i queue.py`")
