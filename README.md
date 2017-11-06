@@ -11,12 +11,12 @@ Improving my understanding of data structures and algorithms
 - Implemented with an array
 - Implemented with a linked list
 
-## Sorting
-- Fast sorting
+## Sort
++ Quick sort algorithm:
     + Partition function
-    + Worst --> O(n^2)
-    + Average --> O(nlogn)
-    + Best --> O(nlogn)
+        + Worst --> O(n^2)
+        + Average --> O(nlogn)
+        + Best --> O(nlogn)
 
 ## Trees
 - Vocabulary : root, edge, child, parent, leaf, height, depth
