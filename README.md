@@ -2,6 +2,13 @@
 
 Improving my understanding of data structures and algorithms
 
+## TO-DOs
++ [ ] Insertion sort
++ [ ] Selection sort
++ [ ] Quick sort
++ [ ] Binary tree
++ [ ] Binary search tree 
+
 ## Queue
 - Implemented with an array
 - Implemented with a linked list
