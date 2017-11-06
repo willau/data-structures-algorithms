@@ -3,12 +3,11 @@
 Improving my understanding of data structures and algorithms
 
 
-## Stack 
+## Queue
 - Implemented with an array
 - Implemented with a linked list
 
-
-## Queue
+## Stack 
 - Implemented with an array
 - Implemented with a linked list
 
@@ -18,3 +17,10 @@ Improving my understanding of data structures and algorithms
         + Worst --> O(n^2)
         + Average --> O(nlogn)
         + Best --> O(nlogn)
+
+## Trees
+- Vocabulary : root, edge, child, parent, leaf, height, depth
+- DFS
+    + pre-order
+    + post-order
+    + in-order
