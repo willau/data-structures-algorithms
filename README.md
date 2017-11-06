@@ -38,6 +38,6 @@ Improving my understanding of data structures and algorithms
 - DFS
     + pre-order
     + post-order
-    + in-order
+    + in-order or symetric
 
 ## Binary search tree
