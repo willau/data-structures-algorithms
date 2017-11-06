@@ -12,14 +12,9 @@ Improving my understanding of data structures and algorithms
 - Implemented with an array
 - Implemented with a linked list
 
-
 ## Sorting
-- Fast sorting
-    + Partition 
++ Fast sorting
+    + Partition function
         + Worst --> O(n^2)
         + Average --> O(nlogn)
         + Best --> O(nlogn)
-
-
-## lOL
-
