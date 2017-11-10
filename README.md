@@ -22,12 +22,6 @@ Improving my understanding of data structures and algorithms
     + Worst --> O(n^2)
     + Average --> O(nlogn)
     + Best --> O(nlogn)
-
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
 + Insertion sort
     + Worst --> O(n^2)
     + Average --> O(n^2)
