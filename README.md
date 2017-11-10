@@ -22,6 +22,12 @@ Improving my understanding of data structures and algorithms
     + Worst --> O(n^2)
     + Average --> O(nlogn)
     + Best --> O(nlogn)
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
 + Insertion sort
     + Worst --> O(n^2)
     + Average --> O(n^2)
@@ -30,14 +36,20 @@ Improving my understanding of data structures and algorithms
     + Worst --> O(n^2)
     + Average --> O(n^2)
     + Best --> O(n^2)
-+ Merge sort
 + Heap sort
+    + Worst --> O(n^2)
+    + Average --> O(nlog(n))
+    + Best --> O(nlog(n))
++ Merge sort
     
 ## Tree
 - Keywords: root, edge, child, parent, leaf, height, depth
 - DFS
-    + pre-order
-    + post-order
-    + in-order or symetric
+    + Pre-order
+    + Post-order
+    + In-order or symetric
+- Height
+    + Worst --> O(n) 
+    + Best --> O(log(n))
 
 ## Binary search tree
