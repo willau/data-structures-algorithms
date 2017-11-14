@@ -1,10 +1,17 @@
 # encoding: utf-8
 """
 author: willy au
-date: 13 Nov. 2017
+date: 14 Nov. 2017
 """
 
 from typing import List
+
+
+def quick_sort(array: List, l, r) -> None:
+    if l < r:
+        i = partition(array, l, r)
+        quick_sort(array, l, i-1)
+        quick_sort(array, i+1, r)
 
 
 def partition(array: List, l, r) -> int:
@@ -25,12 +32,3 @@ def partition(array: List, l, r) -> int:
     array[start] = array[r]
     array[r] = key
     return r
-
-
-def quicksort(array: List, l, r) -> None:
-    if l < r:
-        i = partition(array, l, r)
-        quicksort(array, l, i-1)
-        quicksort(array, i+1, r)
-
-
