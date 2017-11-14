@@ -2,8 +2,9 @@
 .ipynb_checkpoints
 
 # Self-made module specific
-data_struct/__pycache__/
-algo/__pycache__/
+mycode/__pycache__/
+mycode/algo/__pycache__/
+mycode/struct/__pycache__/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
