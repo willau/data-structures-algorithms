@@ -26,3 +26,8 @@ def insertion_sort(array: List):
             array[j] = array[j-1]
             j = j-1
         array[j] = key
+
+
+# TODO -> finish this one
+def buble_sort(array: List):
+    return None
