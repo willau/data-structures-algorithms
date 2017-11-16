@@ -4,6 +4,8 @@ Improving my understanding of data structures and algorithms
 
 ## TO-DOs
 + [ ] Bubble sort
++ [ ] Merger sort
++ [ ] Bucket sort
 + [ ] Binary search tree 
 
 ## Queue
@@ -34,6 +36,9 @@ Improving my understanding of data structures and algorithms
 + Selection sort
     + Worst ----> O(n^2)
     + Average --> O(n^2)
++ Radix or Bucket sort
+    + Average --> O(w.n)
+    + w : length of word
     
 ## Tree
 - Keywords: root, edge, child, parent, leaf, height, depth
