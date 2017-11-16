@@ -3,10 +3,6 @@
 Improving my understanding of data structures and algorithms
 
 ## TO-DOs
-+ [ ] Insertion sort
-+ [ ] Selection sort
-+ [ ] Quick sort
-+ [ ] Binary tree
 + [ ] Binary search tree 
 
 ## Queue
@@ -18,7 +14,7 @@ Improving my understanding of data structures and algorithms
 - Implemented with a linked list
 
 ## Sort
-# Complexity
+#### Complexity
 + Merge sort
     + Worst   --> O(n.log(n))
     + Average --> O(n.log(n))
@@ -47,5 +43,3 @@ Improving my understanding of data structures and algorithms
 - Height
     + Worst --> O(n) 
     + Best --> O(log(n))
-
-## Binary search tree
