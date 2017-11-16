@@ -3,6 +3,7 @@
 Improving my understanding of data structures and algorithms
 
 ## TO-DOs
++ [ ] Bubble sort
 + [ ] Binary search tree 
 
 ## Queue
@@ -16,22 +17,22 @@ Improving my understanding of data structures and algorithms
 ## Sort
 #### Complexity
 + Merge sort
-    + Worst   --> O(n.log(n))
+    + Worst ----> O(n.log(n))
     + Average --> O(n.log(n))
 + Heap sort
-    + Worst   --> O(n.log(n))
+    + Worst ----> O(n.log(n))
     + Average --> O(n.log(n))
 + BST sort
-    + Worst   --> O(n^2)
+    + Worst ----> O(n^2)
     + Average --> O(n.log(n))
 + Quick sort 
-    + Worst   --> O(n^2)
+    + Worst ----> O(n^2)
     + Average --> O(n.log(n))
 + Insertion sort
-    + Worst   --> O(n^2)
+    + Worst ----> O(n^2)
     + Average --> O(n^2)
 + Selection sort
-    + Worst   --> O(n^2)
+    + Worst ----> O(n^2)
     + Average --> O(n^2)
     
 ## Tree
