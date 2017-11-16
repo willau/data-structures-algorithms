@@ -2,11 +2,15 @@
 
 Improving my understanding of data structures and algorithms
 
-## TO-DOs
+## TODO
 + [ ] Bubble sort
-+ [ ] Merger sort
++ [ ] Merge sort
 + [ ] Bucket sort
-+ [ ] Binary search tree 
++ [ ] Tree structure
++ [ ] Traversal strategy
++ [ ] Write graph outline
++ [ ] Add space complexity
+
 
 ## Queue
 - Implemented with an array
@@ -34,6 +38,9 @@ Improving my understanding of data structures and algorithms
     + Worst ----> O(n^2)
     + Average --> O(n^2)
 + Selection sort
+    + Worst ----> O(n^2)
+    + Average --> O(n^2)
++ Bubble sort
     + Worst ----> O(n^2)
     + Average --> O(n^2)
 + Radix or Bucket sort
