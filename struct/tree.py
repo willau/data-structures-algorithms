@@ -12,3 +12,6 @@ class Node:
         self.left = None
         self.right = None
 
+    # TODO: complete tree with multiple traversal methods
+    # TODO: add general tree !
+
