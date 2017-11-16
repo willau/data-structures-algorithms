@@ -41,6 +41,7 @@ Improving my understanding of data structures and algorithms
     + Pre-order
     + Post-order
     + In-order or symetric
+- BFS
 - Height
-    + Worst --> O(n) 
-    + Best --> O(log(n))
+    + Worst   --> O(n) 
+    + Average --> O(log(n))

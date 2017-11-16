@@ -27,16 +27,16 @@ def bst_sort(array):
     for e in array:
         bstree.insert(e)
     array = list()
-    infix_traversal(bstree.root, array)
+    inorder_traverse(bstree.root, array)
     return array
 
 
-def infix_traversal(node, array):
+def inorder_traverse(node, array):
     if node.left is not None:
-        infix_traversal(node.left, array)
+        inorder_traverse(node.left, array)
     array.append(node.data)
     if node.right is not None:
-        infix_traversal(node.right, array)
+        inorder_traverse(node.right, array)
 
 
 class Node:
