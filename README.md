@@ -16,7 +16,7 @@ Improving my understanding of data structures and algorithms
 - Implemented with an array
 - Implemented with a linked list
 
-## Stack 
+## Stack
 - Implemented with an array
 - Implemented with a linked list
 
@@ -31,7 +31,7 @@ Improving my understanding of data structures and algorithms
 + BST sort
     + Worst ----> O(n^2)
     + Average --> O(n.log(n))
-+ Quick sort 
++ Quick sort
     + Worst ----> O(n^2)
     + Average --> O(n.log(n))
 + Insertion sort
@@ -46,14 +46,14 @@ Improving my understanding of data structures and algorithms
 + Radix or Bucket sort
     + Average --> O(w.n)
     + w : length of word
-    
+
 ## Tree
 - Keywords: root, edge, child, parent, leaf, height, depth
 - DFS
     + Pre-order
     + Post-order
-    + In-order or symetric
+    + In-order or symmetric
 - BFS
 - Height
-    + Worst   --> O(n) 
+    + Worst   --> O(n)
     + Average --> O(log(n))
