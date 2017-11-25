@@ -33,7 +33,9 @@ def buble_sort(array: List):
     def switch(i, j):
         array[i], array[j] = array[j], array[i]
 
-    n - len(array)
+    n = len(array)
     for __ in range(n):
         for i in range(n-1):
-            switch(i, i+1)
+            if array[i] >= array[i+1]:
+                switch(i, i+1)
+
