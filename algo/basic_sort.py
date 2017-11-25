@@ -28,6 +28,12 @@ def insertion_sort(array: List):
         array[j] = key
 
 
-# TODO -> finish this one
 def buble_sort(array: List):
-    return None
+
+    def switch(i, j):
+        array[i], array[j] = array[j], array[i]
+
+    n - len(array)
+    for __ in range(n):
+        for i in range(n-1):
+            switch(i, i+1)
