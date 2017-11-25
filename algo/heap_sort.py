@@ -7,8 +7,8 @@ Time complexity of heap sort algorithm:
     + Average -> O(n.log(n))
     + Worst   -> O(n.log(n))
 
-Space complexity, we only need one array:
-    + O(n)
+Space complexity, we modify array in-place therefore:
+    + O(1)
 
 We use a max heap to sort array here.
 Since for a size n, index stems from 0 to n-1.
