@@ -2,6 +2,14 @@
 """
 author: willy au
 date: 14 Nov. 2017
+
+Time complexity:
+    - Average: O(n.log(n))
+    - Worst: O(n^2)
+
+Space complexity, array is modified in-place therefore:
+    - O(1)
+
 """
 
 from typing import List
