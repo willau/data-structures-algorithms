@@ -22,7 +22,7 @@ Bug encountered:
 """
 
 
-def bst_sort(array):
+def tree_sort(array):
     bstree = BSTree()
     for e in array:
         bstree.insert(e)
