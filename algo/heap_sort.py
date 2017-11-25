@@ -41,9 +41,10 @@ def descent(heap, start, end):
         found = False
         while not found and i <= (end-1)//2:
             i_left, i_right = 2*i+1, 2*i+2
-            # edge case when last parent has 1 child
+            # edge case with only one child
             if i_left == end:
                 i_next = i_left
+            # else check which child to pick
             else:
                 if heap[i_left] > heap[i_right]:
                     i_next = i_left
