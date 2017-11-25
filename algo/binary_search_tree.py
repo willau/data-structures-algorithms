@@ -8,7 +8,7 @@ Time complexity of BST sort algorithm:
     + Average -> O(n.log(n))
     + Worst   -> O(n^2)
 
-Space complexity, tree and array each takes O(n)
+Space complexity, tree takes O(n) space:
     + O(n)
 
 Bug encountered:
