@@ -7,8 +7,8 @@ Time complexity:
     - Average: O(n.log(n))
     - Worst: O(n^2)
 
-Space complexity, array is modified in-place therefore:
-    - O(1)
+Space complexity, there is a recursion call:
+    - O(log(n))
 
 """
 
