@@ -2,6 +2,17 @@
 """
 author: willy au
 date: 14 Nov. 2017
+
+Average Time complexity:
+    - selection sort: O(n^2)
+    - insertion sort: O(n^2)
+    - bubble sort: O(n^2)
+
+Space complexity:
+    - selection sort: O(1)
+    - insertion sort: O(1)
+    - bubble sort: O(1)
+
 """
 
 from typing import List
@@ -28,7 +39,7 @@ def insertion_sort(array: List):
         array[j] = key
 
 
-def buble_sort(array: List):
+def bubble_sort(array: List):
 
     def switch(i, j):
         array[i], array[j] = array[j], array[i]
