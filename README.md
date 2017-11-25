@@ -3,7 +3,6 @@
 Improving my understanding of data structures and algorithms
 
 ## TODO
-+ [ ] Bubble sort
 + [ ] Merge sort
 + [ ] Bucket sort
 + [ ] Tree structure
